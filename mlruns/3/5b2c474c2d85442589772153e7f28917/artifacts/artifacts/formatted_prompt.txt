@@ -1,0 +1,50 @@
+<|im_start|>system
+You are a telecom customer retention analyst. Follow the user's instructions and use only the provided customer evidence.<|im_end|>
+<|im_start|>user
+Answer the question using the provided context.
+
+
+Context:
+You are a telecom customer retention analyst.
+
+
+Churn probability: {churn_probability}
+
+
+Customer information:
+{customer_details}
+
+
+Give two short, practical retention recommendations for this customer.
+Do not repeat the customer information.
+Start each recommendation with an action verb.
+
+CUSTOMER CHURN ANALYSIS
+
+Predicted churn: No
+Predicted churn probability: 4.46%
+
+CUSTOMER FEATURES
+- gender: Male
+- SeniorCitizen: 0
+- Partner: No
+- Dependents: No
+- tenure: 34
+- PhoneService: Yes
+- MultipleLines: No
+- InternetService: DSL
+- OnlineSecurity: Yes
+- OnlineBackup: No
+- DeviceProtection: Yes
+- TechSupport: No
+- StreamingTV: No
+- StreamingMovies: No
+- Contract: One year
+- PaperlessBilling: No
+- PaymentMethod: Mailed check
+- MonthlyCharges: 56.95
+- TotalCharges: 1889.5
+
+TASK
+Act as a telecom customer retention analyst. Provide exactly two practical, concise retention recommendations based on the supplied information. Explain the proposed action and why it may help. Do not claim that any feature caused churn. Do not invent customer information. If churn risk is low, recommend appropriate customer engagement rather than assuming the customer will leave. Number the recommendations 1 and 2.<|im_end|>
+<|im_start|>assistant

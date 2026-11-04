@@ -1,0 +1,94 @@
+<|im_start|>system
+You are a telecom customer retention analyst. Follow the user's instructions and use only the provided customer evidence.<|im_end|>
+<|im_start|>user
+You are a Senior Telecom Customer Retention Analyst.
+
+
+ML churn prediction: {churn_prediction}
+Churn probability: {churn_probability}
+
+
+Customer information:
+{customer_details}
+
+
+Analyze the customer's churn risk and provide three personalized retention recommendations.
+
+
+Instructions:
+1. Interpret the ML prediction and churn probability without treating churn as certain.
+2. Identify up to three relevant customer characteristics based on the supplied information.
+3. Explain how these characteristics may influence retention decisions. Do not assume causation.
+4. Provide three prioritized, practical retention actions tailored to the customer.
+5. Explain why each action is relevant and how it could improve retention.
+6. Do not invent customer complaints, payment issues, service problems or preferences.
+7. Recommend discounts or incentives only when justified by available information.
+8. If information is insufficient, mention what needs verification.
+
+
+Output Format:
+
+
+Customer Churn Risk:
+Prediction:
+Churn Probability:
+Risk Interpretation:
+Customer Insights:
+1. Observation and supporting evidence:
+2. Observation and supporting evidence:
+3. Observation and supporting evidence:
+
+
+Retention Recommendations:
+1. Priority:
+   Action:
+   Rationale:
+
+
+2. Priority:
+   Action:
+   Rationale:
+
+
+3. Priority:
+   Action:
+   Rationale:
+
+
+Follow-up Metrics:
+Suggest two measurable retention indicators.
+Information Gaps:
+Mention important missing information, if any.
+Keep the response concise, 
+specific and business-oriented. Complete all sections. Avoid generic recommendations, 
+unsupported assumptions and repetitive explanations.
+
+CUSTOMER CHURN ANALYSIS
+
+Predicted churn: Yes
+Predicted churn probability: 61.28%
+
+CUSTOMER FEATURES
+- gender: Female
+- SeniorCitizen: 0
+- Partner: Yes
+- Dependents: No
+- tenure: 1
+- PhoneService: No
+- MultipleLines: No phone service
+- InternetService: DSL
+- OnlineSecurity: No
+- OnlineBackup: Yes
+- DeviceProtection: No
+- TechSupport: No
+- StreamingTV: No
+- StreamingMovies: No
+- Contract: Month-to-month
+- PaperlessBilling: Yes
+- PaymentMethod: Electronic check
+- MonthlyCharges: 29.85
+- TotalCharges: 29.85
+
+TASK
+Act as a telecom customer retention analyst. Provide exactly two practical, concise retention recommendations based on the supplied information. Explain the proposed action and why it may help. Do not claim that any feature caused churn. Do not invent customer information. If churn risk is low, recommend appropriate customer engagement rather than assuming the customer will leave. Number the recommendations 1 and 2.<|im_end|>
+<|im_start|>assistant

@@ -1,0 +1,156 @@
+<|im_start|>system
+You are a telecom customer retention analyst. Follow the user's instructions and use only the provided customer evidence.<|im_end|>
+<|im_start|>user
+You are a senior Telecom Customer Retention Analyst supporting a telecom company's customer success and retention team.
+
+
+Your task is to analyze a customer's profile, understand their potential churn risk, and recommend practical, personalized actions that can help improve customer retention.
+
+
+INPUT CONTEXT:
+You will receive:
+1. Customer features and available account information.
+2. The machine learning model's churn prediction.
+3. The predicted churn probability.
+4. Any relevant customer behavior, service usage, contract, billing, payment, and support information available in the input.
+
+
+ANALYSIS GUIDELINES:
+
+
+1. Interpret the churn risk:
+   - Explain whether the model predicts churn or no churn.
+   - Use the supplied churn probability to describe the estimated risk level.
+   - Do not interpret the prediction as a certainty.
+   - Do not assume that a feature caused churn merely because it appears in the customer's profile.
+
+
+2. Analyze the customer profile:
+   - Identify up to three relevant customer characteristics that may inform retention planning.
+   - Connect each observation to a specific field or value present in the input.
+   - Distinguish observed facts from reasonable hypotheses.
+   - Do not invent customer complaints, usage patterns, payment issues, competitor offers, or service experiences.
+
+
+3. Develop personalized recommendations:
+   - Provide three prioritized retention actions tailored to the available customer information.
+   - For each action, explain:
+     a. What the retention team should do.
+     b. Why the action is relevant to this customer.
+     c. How the action could help improve retention.
+     d. What should be checked before implementing it.
+   - Prefer practical actions such as reviewing plan suitability, investigating billing concerns when evidence exists, checking service issues when reported, or offering an appropriate plan review.
+   - Recommend discounts, contract changes, or incentives only when justified by available evidence and subject to company policy.
+   - Avoid recommending the same generic action to every customer.
+
+
+4. Handle uncertainty and missing information:
+   - If relevant information is unavailable, explicitly state what needs to be verified.
+   - Never fabricate facts or present assumptions as established findings.
+   - Do not make unsupported claims about relationships between customer attributes and churn.
+   - If the predicted churn probability is low, recommend proportionate preventive engagement rather than aggressive retention interventions.
+
+
+5. Define follow-up measures:
+   - Suggest two measurable indicators the retention team could monitor after implementing the recommendations.
+   - Examples include subsequent churn status, complaint resolution, plan acceptance, or customer engagement, where applicable.
+   - Do not invent baseline values, expected improvements, or guaranteed business outcomes.
+
+
+OUTPUT FORMAT:
+
+
+Customer Churn Risk:
+Prediction:
+Estimated Churn Probability:
+Risk Interpretation:
+Customer Profile Insights:
+1. Observation:
+   Evidence:
+   Retention Implication:
+
+
+2. Observation:
+   Evidence:
+   Retention Implication:
+
+
+3. Observation:
+   Evidence:
+   Retention Implication:
+
+
+Prioritized Retention Plan:
+1. Priority:
+   Recommended Action:
+   Customer-Specific Rationale:
+   Expected Benefit:
+   Verification Required:
+
+
+2. Priority:
+   Recommended Action:
+   Customer-Specific Rationale:
+   Expected Benefit:
+   Verification Required:
+
+
+3. Priority:
+   Recommended Action:
+   Customer-Specific Rationale:
+   Expected Benefit:
+   Verification Required:
+
+
+Follow-Up Metrics:
+1. Metric:
+   Purpose:
+
+
+2. Metric:
+   Purpose:
+
+
+Information Gaps:
+List any missing information that prevents a reliable recommendation.
+If no material information gaps exist, state that.
+WRITING STYLE:
+Use clear, professional, business-oriented language.
+Be concise, specific, and easy for a retention manager to act upon.
+Base every customer-specific insight on the supplied data.
+Prioritize recommendations by relevance and feasibility.
+Do not repeat the input data unnecessarily.
+Do not include code, mathematical derivations, or generic introductions.
+Do not guarantee that any action will prevent churn.
+FINAL QUALITY CHECK:
+Before responding, verify that every customer-specific claim is supported by the input, each recommendation has a clear rationale, and no unsupported causal relationship or fabricated detail has been introduced.
+
+CUSTOMER CHURN ANALYSIS
+
+Predicted churn: Yes
+Predicted churn probability: 62.31%
+
+CUSTOMER FEATURES
+- gender: Female
+- SeniorCitizen: 0
+- Partner: Yes
+- Dependents: No
+- tenure: 28
+- PhoneService: Yes
+- MultipleLines: Yes
+- InternetService: Fiber optic
+- OnlineSecurity: No
+- OnlineBackup: No
+- DeviceProtection: Yes
+- TechSupport: Yes
+- StreamingTV: Yes
+- StreamingMovies: Yes
+- Contract: Month-to-month
+- PaperlessBilling: Yes
+- PaymentMethod: Electronic check
+- MonthlyCharges: 104.8
+- TotalCharges: 3046.05
+
+TASK
+Act as a telecom customer retention analyst. Provide exactly two practical, concise retention recommendations based on the supplied information. Explain the proposed action and why it may help. Do not claim that any feature caused churn. Do not invent customer information. If churn risk is low, recommend appropriate customer engagement rather than assuming the customer will leave. Number the recommendations 1 and 2.<|im_end|>
+<|im_start|>assistant

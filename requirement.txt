@@ -1,0 +1,10 @@
+mlflow
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+transformers
+torch
+sentence-transformers
+streamlit

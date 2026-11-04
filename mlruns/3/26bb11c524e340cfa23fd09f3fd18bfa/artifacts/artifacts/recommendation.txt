@@ -1,0 +1,12 @@
+**Customer Churn Risk:**
+Prediction: Yes (High likelihood of churn)
+Churn Probability: 61.28%
+Risk Interpretation: The customer has a high probability of leaving due to their current contract type (Month-to-month) and other factors such as no streaming services and lower monthly charges compared to average customers.
+
+**Customer Insights:**
+
+1. **Observation and Supporting Evidence:** The customer does not have any streaming services (StreamingTV: No, StreamingMovies: No), which might indicate they prefer traditional TV options over subscription-based services.
+   
+2. **Observation and Supporting Evidence:** The customer uses electronic checks for payments, suggesting they value convenience but do not require additional security measures like device protection.
+
+3. **Observation and Supporting Evidence:** The customer’s total charges are $29.85 per month, which is slightly below the average ($30/month

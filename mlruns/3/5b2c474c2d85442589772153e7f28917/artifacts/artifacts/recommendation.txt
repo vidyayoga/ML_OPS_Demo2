@@ -1,0 +1,3 @@
+1. **Offer Additional Security Features**: Since the customer has "Yes" for "OnlineSecurity", which could be seen as a positive sign of security awareness, consider offering additional security features like device protection to enhance their online safety. This proactive step can build trust and reduce the likelihood of future churn due to perceived risks or concerns about data privacy.
+
+2. **Review Billing Practices**: Given the high monthly charges ($56.95) compared to total charges ($1889.5), review billing practices to ensure there are no hidden fees or unexpected costs. Clear communication about all charges upfront can prevent misunderstandings and potential dissatisfaction, thereby reducing the risk of churn.

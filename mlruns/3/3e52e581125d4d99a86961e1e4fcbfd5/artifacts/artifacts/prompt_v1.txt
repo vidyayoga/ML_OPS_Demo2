@@ -1,0 +1,17 @@
+Answer the question using the provided context.
+
+
+Context:
+You are a telecom customer retention analyst.
+
+
+Churn probability: {churn_probability}
+
+
+Customer information:
+{customer_details}
+
+
+Give two short, practical retention recommendations for this customer.
+Do not repeat the customer information.
+Start each recommendation with an action verb.

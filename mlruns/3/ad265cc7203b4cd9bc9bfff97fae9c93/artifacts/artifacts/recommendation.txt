@@ -1,0 +1,9 @@
+Based on the provided customer data, here are two practical retention recommendations:
+
+**Recommendation 1:** Encourage the customer to sign up for an additional internet service plan.
+
+**Reasoning:** The customer has "No" for "MultipleLines," which could indicate they do not currently have a secondary line or device connected to their primary account. This might be due to cost concerns or lack of necessity. By suggesting they consider adding another internet service (e.g., Fiber Optic), we can potentially increase their monthly charges and improve their overall satisfaction with their broadband connection. This recommendation aligns with the customer's current contract type ("Month-to-month"), making it relevant and actionable without implying causality between the service change and churn.
+
+**Recommendation 2:** Offer a trial period for streaming services if they express interest in them.
+
+**Reasoning:** Although the customer does not currently subscribe to either streaming TV
